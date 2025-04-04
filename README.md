@@ -8,7 +8,7 @@
 </div>
 
 ## Inspiration 💭
-The dark+ theme of vscode is really good, I've used it throughout my programming career and to be honest, it's pretty good and has good handling of syntax highlighting, nothing to complain about. Simply I wanted to give the theme a more chill touch making it a little more yellowish so that it is good for the eyes and you can spend more time programming with a theme that does not bother your eyes too much, In addition to this, I changed some colors a little to give it a bit of my taste. That's how he gave me the incentive to create my own theme based on dark+
+The dark+ theme of vscode is really good, I've used it throughout my programming career and to be honest, it's pretty good and has good handling of syntax highlighting, nothing to complain about. Simply I wanted to give the theme a more chill touch making it a little more yellowish so that it is good for the eyes and you can spend more time programming with a theme that does not bother your eyes too much, In addition to this, I changed some colors a little to give it a bit of my taste. That's how he gave me the incentive to create my own theme based on default visual studio code dark+ theme
 
 ## Pallete 🎨
 <div align="center">
