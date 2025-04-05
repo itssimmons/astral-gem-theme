@@ -1,4 +1,9 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+# Ignore everything first
+**
+
+# But keep what's needed
+!README.md
+!package.json
+!themes/**
+!LICENSE
+!assets/**
