@@ -1,5 +1,5 @@
-# Astroid Theme
-**When you'll need a developer env to be chill Astroid is your theme**
+# Astral Gem Theme
+*When you'll need a developer env to be chill Astroid is your theme*
 
 ## Preview
 <div align="center">
