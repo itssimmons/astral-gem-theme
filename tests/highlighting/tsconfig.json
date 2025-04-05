@@ -1,6 +1,17 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true
+    "target": "ES2020",                     // Modern JS output
+    "module": "commonjs",                   // Node.js compatible module system
+    "rootDir": "./src",                     // Your source code location
+    "outDir": "./dist",                     // Compiled JS output
+    "strict": true,                         // Enable all strict type-checking options
+    "esModuleInterop": true,                // Compatibility for importing CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                   // Skip checking declaration files
+    "moduleResolution": "node",
+    "resolveJsonModule": true,              // Allow importing .json files
+    "sourceMap": true                       // Generate .map files for debugging
   },
-  "include": [ "**/*.ts" ]
+  "include": ["src"],                       // Files to compile
+  "exclude": ["node_modules", "dist"]       // Files to ignore
 }

@@ -1,0 +1,10 @@
+// theme-keywords-stacked.js
+[
+  "dark plus",           "dark+",             "vsode default theme",
+  "improved theme",      "dark theme",        "astroid",
+  "asteroid",            "gemini",            "astral",
+  "vscode",              "theme",             "color theme",
+  "color-theme",         "colors",            "syntax",
+  "highlighting",        "highlight",         "syntax highlighting",
+  "syntax highlight",    "code highlighting", "code highlight"
+]

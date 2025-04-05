@@ -13,27 +13,13 @@
     "url": "https://github.com/itssimmons/astral-gem-theme"
   },
   "keywords": [
-    "dark plus",
-    "dark+",
-    "vsode default theme",
-    "improved theme",
-    "dark theme",
-    "astroid",
-    "asteroid",
-    "gemini",
-    "astral",
-    "vscode",
-    "theme",
-    "color theme",
-    "color-theme",
-    "colors",
-    "syntax",
-    "highlighting",
-    "highlight",
-    "syntax highlighting",
-    "syntax highlight",
-    "code highlighting",
-    "code highlight"
+    "dark plus",           "dark+",             "vsode default theme",
+    "improved theme",      "dark theme",        "astroid",
+    "asteroid",            "gemini",            "astral",
+    "vscode",              "theme",             "color theme",
+    "color-theme",         "colors",            "syntax",
+    "highlighting",        "highlight",         "syntax highlighting",
+    "syntax highlight",    "code highlighting", "code highlight"
   ],
   "categories": [
     "Themes"
@@ -62,9 +48,7 @@
   },
   "devDependencies": {
     "vsce": "^2.15.0",
-    "@types/node": "^22.14.0"
-  },
-  "dependencies": {
-    "yaml": "^2.7.1"
+    "@types/node": "^22.14.0",
+    "yaml": "^2.3.1"
   }
 }

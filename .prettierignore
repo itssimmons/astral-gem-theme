@@ -2,3 +2,4 @@ coverage/
 themes/
 node_modules/
 dist/
+package.json
