@@ -1,6 +1,6 @@
 {
   "name": "vscode-astral-gem-theme",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "icon": "assets/logo.png",
   "displayName": "The Astral Themes Collection",
   "description": "A collection of color schemas, inspired by the Google Gemini code snippets hightlighting and the Dark+ theme of VSCode.",
@@ -13,13 +13,27 @@
     "url": "https://github.com/itssimmons/astral-gem-theme"
   },
   "keywords": [
-    "dark plus",           "dark+",             "vsode default theme",
-    "improved theme",      "dark theme",        "astroid",
-    "asteroid",            "gemini",            "astral",
-    "vscode",              "theme",             "color theme",
-    "color-theme",         "colors",            "syntax",
-    "highlighting",        "highlight",         "syntax highlighting",
-    "syntax highlight",    "code highlighting", "code highlight"
+    "dark plus",
+    "dark+",
+    "vsode default theme",
+    "improved theme",
+    "dark theme",
+    "astroid",
+    "asteroid",
+    "gemini",
+    "astral",
+    "vscode",
+    "theme",
+    "color theme",
+    "color-theme",
+    "colors",
+    "syntax",
+    "highlighting",
+    "highlight",
+    "syntax highlighting",
+    "syntax highlight",
+    "code highlighting",
+    "code highlight"
   ],
   "categories": [
     "Themes"
