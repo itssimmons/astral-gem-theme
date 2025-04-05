@@ -25,7 +25,7 @@
 		"terminal.ansiMagenta": "#e03c8a",
 		"terminal.ansiBrightMagenta": "#646695",
 		"terminal.foreground": "#bcb28d",
-		"terminal.background": "#1C1C1D",
+		"terminal.background": "#151617",
 		"terminalCursor.background": "#eee8d5",
 		"terminalCursor.foreground": "#657b83",
 		"editor.background": "#1C1C1D",

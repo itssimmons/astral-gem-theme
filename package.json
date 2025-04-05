@@ -1,44 +1,56 @@
 {
-    "name": "vscode-astroid-dark-theme",
-    "icon": "assets/logo.png",
-    "displayName": "Astroid Theme",
-    "description": "Astroid is a vscode theme that improves vscode's dark+ theme considerably",
-    "version": "1.9.0",
-    "publisher": "simmxns",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/simmxns/astroid"
-    },
-    "keywords": [
-        "dark plus",
-        "dark+",
-        "vsode default theme",
-        "improved theme",
-        "dark theme",
-        "astroid",
-        "asteroid"
-    ],
-    "categories": [
-        "Themes"
-    ],
-    "engines": {
-        "vscode": "^1.67.0"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Astroid Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Astroid Theme-color-theme.json"
-            }
-        ]
-    },
-    "scripts": {
-        "publish": "npx vsce publish",
-        "package": "npx vsce package",
-        "build": "tsc src/build.ts && node dist/build.js",
-        "fix": "npm run pretty && npm run lint",
-        "pretty": "npx prettier -w .",
-        "lint": "npx eslint . --ext .js,.ts"
-    }
+  "name": "vscode-astral-gem-theme",
+  "version": "1.9.1",
+  "icon": "assets/logo.png",
+  "displayName": "The Astral Themes Collection",
+  "description": "A collection of color schemas, inspired by the Google Gemini code snippets hightlighting and the Dark+ theme of VSCode.",
+  "license": "MIT",
+  "author": "Simón Villafañe",
+  "publisher": "itssimmons",
+  "homepage": "https://github.com/itssimmons/astral-gem-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itssimmons/astral-gem-theme"
+  },
+  "keywords": [
+    "dark plus",           "dark+",             "vsode default theme",
+    "improved theme",      "dark theme",        "astroid",
+    "asteroid",            "gemini",            "astral",
+    "vscode",              "theme",             "color theme",
+    "color-theme",         "colors",            "syntax",
+    "highlighting",        "highlight",         "syntax highlighting",
+    "syntax highlight",    "code highlighting", "code highlight"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=7.0.0",
+    "vscode": "^1.67.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "(Legacy) Astroid Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/astroid-theme.color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "publish": "npx vsce publish",
+    "package": "npx vsce package",
+    "build": "tsc src/build.ts && node dist/build.js",
+    "format:fix": "pnpm format:prettier && pnpm format:lint",
+    "format:prettier": "npx prettier -w src",
+    "format:lint": "npx eslint src --ext .js,.ts"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0",
+    "@types/node": "^22.14.0"
+  },
+  "dependencies": {
+    "yaml": "^2.7.1"
+  }
 }
