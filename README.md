@@ -1,10 +1,10 @@
 # Astral Gem Theme
-*When you'll need a developer env to be chill Astroid is your theme*
+*A theme to chill out* 🤙
 
 ## Preview
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/62354548/169932516-3a0aa6f5-057b-4456-a2cc-2017a63cd2b0.png" />
-  <i>Typescript syntax hightlighting preview</i>
+  <img src="https://github.com/user-attachments/assets/3b71445c-71d2-40e2-968d-c1aa2201a4ff" />
+  <i style='font-size:10px;'>Color pallete used for the syntax highlighting</i>
 </div>
 
 ## Inspiration 💭
@@ -13,10 +13,9 @@ The dark+ theme of vscode is really good, I've used it throughout my programming
 ## Pallete 🎨
 <div align="center">
   <img src="https://user-images.githubusercontent.com/62354548/169931198-8138f913-5f18-4548-b60b-6f60d308327f.png" />
-  <i>Color pallete used for the syntax hihglighting</i>
+  <i style='font-size:10px;'>Color pallete used for the syntax highlighting</i>
 </div>
 
 ## Contributing
-[Pull requests](https://github.com/simmxns/astroid/pulls) are welcome! 🤠
-
+[Pull requests](https://github.com/itssimmons/astral-gem-theme/pulls) are welcome! 🤠
 **I hope you enjoy it!**
