@@ -1,0 +1,5 @@
+{
+	"yaml.schemas": {
+		"C:/Users/simon/.workspaces/astral-gem-theme/.schemas/builder-schema.json": "src/themes/*.{yml,yaml}",
+	},
+}

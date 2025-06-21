@@ -1,0 +1,14 @@
+file_name: astral-gem.color-theme.json
+theme_name: Astral Gem
+
+tokens:
+  colors:
+    random_color1: &random_color1 "#f00"
+    random_color2: &random_color2 "#0f0"
+
+theme_schema:
+  colors:
+    editor.background: *random_color1
+    editor.foreground: *random_color2
+
+      

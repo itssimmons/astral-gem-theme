@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Builder Schema",
+  "definitions": {
+    "color": {
+      "type": "string",
+      "pattern": "^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$"
+    }
+  },
+  "type": "object",
+  "allowComments": true,
+  "additionalProperties": false,
+  "properties": {
+    "file_name": {
+      "type": "string",
+      "description": "The name of the file to generate. This will be the exact name of the file that will be generated in the ./themes folder."
+    },
+		"theme_name": {
+			"type": "string",
+			"description": "The name of the theme. This will be the name of the file that will be generated in the ./themes folder.",
+			"minLength": 3
+		},
+    "theme_schema": {
+      "description": "Copy of the vscode color theme schema, but using https:// instead of vscode://",
+      "$ref": "file:///C:/Users/simon/.workspaces/astral-gem-theme/.schemas/.vscode/color-theme.json"
+    },
+    "tokens": {
+      "type": "object",
+      "description": "Not used for validation. Place subschemas here that you wish to reference inline with $ref or using them as *variables.",
+      "properties": {
+        "colors": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/color"
+          }
+        }
+      }
+    }
+  },
+	"required": ["file_name", "theme_schema"]
+}
