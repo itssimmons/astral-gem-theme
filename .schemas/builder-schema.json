@@ -15,7 +15,11 @@
       "type": "string",
       "description": "The name of the file to generate. This will be the exact name of the file that will be generated in the ./themes folder."
     },
-		"theme_name": {
+    "ui_theme": {
+      "enum": ["vs", "vs-dark", "hc-black", "hc-light"],
+      "description": "The name of the ui theme to use for the theme."
+    },
+		"theme_label": {
 			"type": "string",
 			"description": "The name of the theme. This will be the name of the file that will be generated in the ./themes folder.",
 			"minLength": 3
@@ -37,5 +41,5 @@
       }
     }
   },
-	"required": ["file_name", "theme_schema"]
+	"required": ["file_name", "theme_schema", "ui_theme"]
 }

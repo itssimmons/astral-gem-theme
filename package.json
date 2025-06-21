@@ -1,9 +1,10 @@
 {
   "name": "vscode-astral-gem-theme",
+  "type": "module",
   "version": "1.9.3",
   "icon": "assets/logo.png",
   "displayName": "The Astral Themes Collection",
-  "description": "A collection of color schemas, inspired by the Google Gemini code snippets hightlighting and the Dark+ theme of VSCode.",
+  "description": "A collection of color schemas, inspired by the observable universe 🪐",
   "license": "MIT",
   "author": "Simón Villafañe",
   "publisher": "itssimmons",
@@ -13,13 +14,27 @@
     "url": "https://github.com/itssimmons/astral-gem-theme"
   },
   "keywords": [
-		"dark plus",           "dark+",             "vsode default theme",
-		"improved theme",      "dark theme",        "astroid",
-		"asteroid",            "gemini",            "astral",
-		"vscode",              "theme",             "color theme",
-		"color-theme",         "colors",            "syntax",
-		"highlighting",        "highlight",         "syntax highlighting",
-		"syntax highlight",    "code highlighting", "code highlight"
+    "dark plus",
+    "dark+",
+    "vsode default theme",
+    "improved theme",
+    "dark theme",
+    "astroid",
+    "asteroid",
+    "gemini",
+    "astral",
+    "vscode",
+    "theme",
+    "color theme",
+    "color-theme",
+    "colors",
+    "syntax",
+    "highlighting",
+    "highlight",
+    "syntax highlighting",
+    "syntax highlight",
+    "code highlighting",
+    "code highlight"
   ],
   "categories": [
     "Themes"
@@ -40,14 +55,31 @@
         "label": "Astral Gem",
         "uiTheme": "vs-dark",
         "path": "./themes/astral-gem.color-theme.json"
+      },
+      {
+        "label": "Random Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/random-theme.color-theme.json"
+      },
+      {
+        "label": "Random Theme 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/random-theme-2.color-theme.json"
+      },
+      {
+        "label": "Random Theme 3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/random-theme-3.color-theme.json"
       }
     ]
   },
   "scripts": {
     "publish": "npx vsce publish",
     "package": "npx vsce package",
-    "build": "tsx src/build.mts",
-    "build:watch": "tsx watch src/build.mts",
+    
+    "dev": "tsx src/cli.ts",
+    "force:build": "tsx src/build.ts",
+
     "test": "node --test src/**/*.spec.ts",
     "code:fix": "pnpm format && pnpm lint",
     "format": "npx prettier -w src",

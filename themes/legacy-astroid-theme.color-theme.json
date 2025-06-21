@@ -1,7 +1,5 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"type": "dark",
-	"name": "Astroid Theme",
 	"colors": {
 		"focusBorder": "#40627C",
 		"foreground": "#bcb28d",

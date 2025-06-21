@@ -1,5 +1,7 @@
 file_name: astral-gem.color-theme.json
-theme_name: Astral Gem
+
+theme_label: Astral Gem
+ui_theme: vs-dark
 
 tokens:
   colors:
@@ -7,8 +9,10 @@ tokens:
     random_color2: &random_color2 "#0f0"
 
 theme_schema:
+  semanticHighlighting: true
+  semanticTokenColors:
+    "*.abstract": "#ff0000"
   colors:
-    editor.background: *random_color1
-    editor.foreground: *random_color2
+    editor.background: "#ff0000"
 
       
