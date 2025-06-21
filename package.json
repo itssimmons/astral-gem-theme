@@ -13,34 +13,20 @@
     "url": "https://github.com/itssimmons/astral-gem-theme"
   },
   "keywords": [
-    "dark plus",
-    "dark+",
-    "vsode default theme",
-    "improved theme",
-    "dark theme",
-    "astroid",
-    "asteroid",
-    "gemini",
-    "astral",
-    "vscode",
-    "theme",
-    "color theme",
-    "color-theme",
-    "colors",
-    "syntax",
-    "highlighting",
-    "highlight",
-    "syntax highlighting",
-    "syntax highlight",
-    "code highlighting",
-    "code highlight"
+		"dark plus",           "dark+",             "vsode default theme",
+		"improved theme",      "dark theme",        "astroid",
+		"asteroid",            "gemini",            "astral",
+		"vscode",              "theme",             "color theme",
+		"color-theme",         "colors",            "syntax",
+		"highlighting",        "highlight",         "syntax highlighting",
+		"syntax highlight",    "code highlighting", "code highlight"
   ],
   "categories": [
     "Themes"
   ],
   "engines": {
-    "node": ">=22.0.0",
-    "pnpm": ">=7.0.0",
+    "node": ">=24.0.0",
+    "pnpm": ">=9.0.0",
     "vscode": "^1.67.0"
   },
   "contributes": {
@@ -48,21 +34,36 @@
       {
         "label": "(Legacy) Astroid Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/astroid-theme.color-theme.json"
+        "path": "./themes/legacy-astroid-theme.color-theme.json"
+      },
+      {
+        "label": "Astral Gem",
+        "uiTheme": "vs-dark",
+        "path": "./themes/astral-gem.color-theme.json"
       }
     ]
   },
   "scripts": {
     "publish": "npx vsce publish",
     "package": "npx vsce package",
-    "build": "tsc src/build.ts && node dist/build.js",
-    "format:fix": "pnpm format:prettier && pnpm format:lint",
-    "format:prettier": "npx prettier -w src",
-    "format:lint": "npx eslint src --ext .js,.ts"
+    "build": "tsx src/build.mts",
+    "build:watch": "tsx watch src/build.mts",
+    "test": "node --test src/**/*.spec.ts",
+    "code:fix": "pnpm format && pnpm lint",
+    "format": "npx prettier -w src",
+    "lint": "npx eslint --config eslint.config.mjs"
   },
   "devDependencies": {
-    "vsce": "^2.15.0",
-    "@types/node": "^22.14.0",
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.3",
+    "@vscode/vsce": "^3.5.0",
+    "chalk": "^4.1.2",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.20.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "^8.34.1",
     "yaml": "^2.3.1"
   }
 }

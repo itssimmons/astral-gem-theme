@@ -1,0 +1,9 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "name": "Astral Gem",
+  "colors": {
+    "editor.background": "#f00",
+    "editor.foreground": "#0f0"
+  }
+}

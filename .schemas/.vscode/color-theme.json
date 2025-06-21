@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "allowComments": true,
+  "allowTrailingCommas": true,
+  "properties": {
+    "colors": {
+      "description": "Colors in the workbench",
+      "$ref": "https://raw.githubusercontent.com/wraith13/vscode-schemas/refs/heads/master/en/v1.47.3/schemas/workbench-colors.json",
+      "additionalProperties": false
+    },
+    "tokenColors": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "Path to a tmTheme file (relative to the current file)."
+        },
+        {
+          "description": "Colors for syntax highlighting",
+          "$ref": "https://raw.githubusercontent.com/wraith13/vscode-schemas/refs/heads/master/en/v1.47.3/schemas/textmate-colors.json"
+        }
+      ]
+    },
+    "semanticHighlighting": {
+      "type": "boolean",
+      "description": "Whether semantic highlighting should be enabled for this theme."
+    },
+    "semanticTokenColors": {
+      "type": "object",
+      "description": "Colors for semantic tokens",
+      "$ref": "https://raw.githubusercontent.com/wraith13/vscode-schemas/refs/heads/master/en/v1.47.3/schemas/token-styling.json"
+    }
+  }
+}
