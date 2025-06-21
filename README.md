@@ -36,4 +36,4 @@ The dark+ theme of vscode is really good, I've used it throughout my programming
 **I hope you enjoy it!**
 
 ## Small Notice
-Some of the documentation and images are out of date... I'm making my best to update everything 🤯
+Some of the documentation and images are outdated... I'm making my best to update everything 🤯
