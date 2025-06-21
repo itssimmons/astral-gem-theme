@@ -1,10 +1,10 @@
 # Astral Gem Theme
-*A theme to chill out* 🤙
+*A colletion of themes to chill out* 🤙
 
 ## Preview
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3b71445c-71d2-40e2-968d-c1aa2201a4ff" />
-  <i style='font-size:10px;'>Color pallete used for the syntax highlighting</i>
+  <i style='font-size:10px;'>Preview of the syntax highlighting in VSCode</i>
 </div>
 
 ## Inspiration 💭
@@ -34,3 +34,6 @@ The dark+ theme of vscode is really good, I've used it throughout my programming
 ## Contributing
 [Pull requests](https://github.com/itssimmons/astral-gem-theme/pulls) are welcome! 🤠
 **I hope you enjoy it!**
+
+## Small Notice
+Some of the documentation and images are out of date... I'm making my best to update everything 🤯
