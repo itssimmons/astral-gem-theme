@@ -1,5 +1,8 @@
-# Astral Gem Theme
+# Astral Gem Theme 🔒
 *A colletion of themes to chill out* 🤙
+
+### Archived ⚠️
+> I'm not using VSCode anymore as my main code editor; for that reason, I will no longer update this repo soon or in the future.
 
 ## Preview
 <div align="center">
@@ -30,10 +33,6 @@ The dark+ theme of vscode is really good, I've used it throughout my programming
 - ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCC`
 - ![#939393](https://placehold.co/15x15/939393/939393.png) `#939393`
 - ![#6B6B6B](https://placehold.co/15x15/6B6B6B/6B6B6B.png) `#6B6B6B`
-
-## Contributing
-[Pull requests](https://github.com/itssimmons/astral-gem-theme/pulls) are welcome! 🤠
-**I hope you enjoy it!**
 
 ## Small Notice
 Some of the documentation and images are outdated... I'm making my best to update everything 🤯
